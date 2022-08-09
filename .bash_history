@@ -300,3 +300,7 @@ screen
 ls
 #1660045827
 pwd
+#1660046300
+who ami
+#1660046307
+git status

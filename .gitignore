@@ -1,8 +1,15 @@
 /node_modules
 /public/hot
 /public/storage
+/public/images
 /storage/*.key
 /vendor
+/public_html/error_log
+/tmp
+/.vscode-server/
+/.cpanel/
+.bash_history
+.editorconfig
 .env
 .env.backup
 .phpunit.result.cache

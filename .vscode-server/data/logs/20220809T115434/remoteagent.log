@@ -87,3 +87,10 @@
     at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
     at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037)
 [2022-08-09 11:59:51.513] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-08-09 12:01:27.826] [remoteagent] [info] [127.0.0.1][b70c724a][ExtensionHostConnection] <3749168> Extension Host Process exited with code: 0, signal: null.
+[2022-08-09 12:01:27.826] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-09 12:01:36.593] [remoteagent] [info] [127.0.0.1][d4a638c8][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-09 12:01:36.594] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-08-09 12:06:27.827] [remoteagent] [info] Last EH closed, shutting down
