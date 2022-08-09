@@ -69,13 +69,11 @@ class OtentikasiController extends Controller
             DB::table('users')
               ->where('id', session()->get('id_user'))
               ->update(['name' => $request->name,
-                      'email' => $request->email,
                     ]);
         }else{
         DB::table('users')
               ->where('id', session()->get('id_user'))
               ->update(['name' => $request->name,
-                      'email' => $request->email,
                       'password' => bcrypt($request->password)
                     ]);
         }
