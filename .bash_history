@@ -272,3 +272,31 @@ du -sh mail
 du -sh public
 #1659587798
 rm -rf public
+#1660045133
+pwd
+#1660045133
+ls
+#1660045140
+git pull
+#1660045341
+git status
+#1660045363
+git add .
+#1660045370
+git commit -m "update am"
+#1660045378
+git push origin master
+#1660045381
+git push origin main
+#1660045417
+git status
+#1660045769
+ls
+#1660045775
+history | grep ngrok
+#1660045785
+screen
+#1660045825
+ls
+#1660045827
+pwd

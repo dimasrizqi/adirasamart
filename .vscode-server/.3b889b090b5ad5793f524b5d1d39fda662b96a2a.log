@@ -1,0 +1,165 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:44762 (IPv4)
+Extension host agent listening on 44762
+
+[11:54:35] Extension host agent started.
+[11:54:36] [127.0.0.1][1753ba82][ManagementConnection] New connection established.
+[11:54:36] [127.0.0.1][0cf99887][ExtensionHostConnection] New connection established.
+[11:54:36] [127.0.0.1][0cf99887][ExtensionHostConnection] <3748958> Launched Extension Host Process.
+[11:54:40] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-70387baa-0c5d-4ae8-b267-4743a79597a8.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-70387baa-0c5d-4ae8-b267-4743a79597a8.sock',
+  port: -1
+}
+[11:54:40] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-67f4acda-d130-495f-8f41-4f231195388f.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-67f4acda-d130-495f-8f41-4f231195388f.sock',
+  port: -1
+}
+[11:54:40] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-f11059d1-7d47-4aac-a836-163dbfeb8d1f.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-f11059d1-7d47-4aac-a836-163dbfeb8d1f.sock',
+  port: -1
+}
+[11:54:40] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-f899c368-7591-4358-9dc5-5b9eb8913901.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-f899c368-7591-4358-9dc5-5b9eb8913901.sock',
+  port: -1
+}
+[11:54:41] No ptyHost heartbeat after 6 seconds
+[11:54:41] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-7b56558d-48e7-4078-ad42-d9aaa235aca9.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-7b56558d-48e7-4078-ad42-d9aaa235aca9.sock',
+  port: -1
+}
+rejected promise not handled within 1 second: ErrorNoTelemetry: Could not find pty on pty host
+stack trace: ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateIcon (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25409),    at Object.call (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[11:54:43] [ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateIcon (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25409),    at Object.call (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+rejected promise not handled within 1 second: ErrorNoTelemetry: Could not find pty on pty host
+stack trace: ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateTitle (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25349),    at Object.call (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[11:54:43] [ErrorNoTelemetry: Could not find pty on pty host,    at d._throwIfNoPty (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103),    at d.updateTitle (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:24:25349),    at Object.call (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293),    at onPromise (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880),    at onRawMessage (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268),    at /home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556,    at h.invoke (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at z.deliver (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at M.fire (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.W (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+[11:54:45] [127.0.0.1][0cf99887][ExtensionHostConnection] <3748958> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[11:54:45] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[11:54:51] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[11:54:51] Cancelling previous shutdown timeout
+[11:54:52] [127.0.0.1][d4a638c8][ManagementConnection] New connection established.
+[11:54:52] [127.0.0.1][b70c724a][ExtensionHostConnection] New connection established.
+[11:54:52] [127.0.0.1][b70c724a][ExtensionHostConnection] <3749168> Launched Extension Host Process.
+[11:54:56] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-a754f65f-abb9-434e-9c9e-dff297a07222.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-a754f65f-abb9-434e-9c9e-dff297a07222.sock',
+  port: -1
+}
+[11:54:56] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-3b4ec450-728b-4adc-9495-ba9e903e45e7.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-3b4ec450-728b-4adc-9495-ba9e903e45e7.sock',
+  port: -1
+}
+[11:54:56] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-8261732a-f711-4616-adc1-24e538fa4cd1.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-8261732a-f711-4616-adc1-24e538fa4cd1.sock',
+  port: -1
+}
+[11:54:56] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-b3253eb5-0caa-4161-a9bf-3db8a60bdffd.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-b3253eb5-0caa-4161-a9bf-3db8a60bdffd.sock',
+  port: -1
+}
+[11:54:56] [127.0.0.1][1753ba82][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[11:54:56] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[11:58:11] Error: listen EACCES: permission denied /run/user/1049/vscode-ipc-37f48293-8d72-46f0-9ad6-c7bea17bc7ee.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1317:21)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1480:5)
+    at D.setup (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115671)
+    at new D (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:115559)
+    at g._createProcess (/home/rasadi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:137:125037) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '/run/user/1049/vscode-ipc-37f48293-8d72-46f0-9ad6-c7bea17bc7ee.sock',
+  port: -1
+}

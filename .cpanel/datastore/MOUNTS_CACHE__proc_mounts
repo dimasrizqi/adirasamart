@@ -31,3 +31,4 @@ cgroup /sys/fs/cgroup/cpuset cgroup rw,relatime,cpuset 0 0
 cgroup /sys/fs/cgroup/memory cgroup rw,relatime,memory 0 0
 binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
 tmpfs /run/user/0 tmpfs rw,nosuid,nodev,relatime,size=1638764k,mode=700 0 0
+tmpfs /run/user/989 tmpfs rw,nosuid,nodev,relatime,size=1638764k,mode=700,uid=989,gid=983 0 0
