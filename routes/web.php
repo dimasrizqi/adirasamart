@@ -22,7 +22,9 @@ Route::group(['middleware' => 'auth'], function () {
     
     Route::get('/shortlink/print','shortlinkController@print')->name('shortlink.print');
     Route::resource('shortlink','shortlinkController');
+    Route::resource('am','amController');
     Route::resource('gmptemuan','gmptemuanController');
     Route::resource('gmpclosing','gmpclosingController');
+    Route::resource('am','amController');
 });
     Route::get('/{shortlink}','shortlinkController@shortlink')->name('shortlink.redirect');

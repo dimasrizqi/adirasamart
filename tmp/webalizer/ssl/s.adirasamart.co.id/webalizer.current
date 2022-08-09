@@ -1,14 +1,14 @@
-# Webalizer V2.23-08 Incremental Data - 08/03/2022 11:02:35
-2022 8 3 11 2 35
-108 66 6 25 9 5 2363016 50 6 0
-4 1 66 1 3
+# Webalizer V2.23-08 Incremental Data - 08/07/2022 15:02:03
+2022 8 7 15 2 3
+118 68 13 25 10 7 2374924 60 13 0
+1 2 66 1 7
 1 0 378 1 1 1
 2 1 4408 1 2 1
 105 65 2358230 4 47 4
+2 0 1580 1 2 1
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+6 1 5920 5 6 5
+2 1 4408 1 2 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -41,26 +41,26 @@
 0 0 0 0
 38 31 1183774 19
 66 34 1174078 27
-0 0 0 0
+2 0 1580 2
 0 0 0 0
 0 0 0 0
 1 0 378 1
 0 0 0 0
 0 0 0 0
 0 0 0 0
+2 1 4408 2
 0 0 0 0
 0 0 0 0
+1 0 378 1
+1 0 378 1
+6 2 9572 6
+1 0 378 1
 0 0 0 0
 0 0 0 0
-0 0 0 0
-3 1 4786 3
-0 0 0 0
-0 0 0 0
-0 0 0 0
 0
 0
 0
-66
+68
 0
 0
 0
@@ -69,7 +69,7 @@
 0
 0
 0
-15
+23
 0
 0
 0
@@ -100,89 +100,101 @@
 0
 # -urls- 
 /assets/css/bootstrap.min.css
-0 2 11491920 311516 0 0
+0 2 8299971881376641637 311516 0 0
 /assets/js/custom.js
-0 2 11493360 308 0 0
+0 2 0 308 0 0
 /assets/js/moment.min.js
-0 2 11493008 106648 0 0
+0 2 0 106648 0 0
 /shortlink/print
-0 3 11494160 117909 0 0
+0 3 0 117909 0 0
 /assets/js/jquery-3.3.1.min.js
-0 2 11492496 173854 0 0
+0 2 0 173854 0 0
 /assets/webfonts/fa-solid-900.woff2
-0 2 11493920 148696 0 0
+0 2 0 148696 0 0
 /assets/js/scripts.js
-0 2 11493248 34302 0 0
+0 2 0 34302 0 0
 /assets/js/popper.min.js
-0 2 11492624 42008 0 0
+0 2 0 42008 0 0
 /assets/webfonts/fa-regular-400.woff2
-0 1 4049642497288332337 13592 0 0
+0 1 0 13592 0 0
 /gmpclosing
-0 2 11500080 48468 0 0
+0 2 0 48468 0 0
 /assets/css/all.css
-0 2 11492144 108912 0 0
+0 2 0 108912 0 0
 /favicon.ico
-0 2 11493472 0 0 0
+0 2 0 0 0 0
 /assets/img/avatar/avatar-1.png
-0 2 11493696 16624 0 0
+0 2 0 16624 0 0
 /gmptemuan
-0 3 11499856 17865 0 0
+0 3 0 17865 0 0
 /assets/css/components.css
-0 2 11492368 422000 0 0
+0 2 0 422000 0 0
 /gmptemuan/create
-0 3 11501056 21948 0 0
+0 3 0 21948 0 0
 /login
-0 12 11491488 48948 1 0
+0 14 0 57008 1 0
 /profile
-0 1 11505760 7893 0 0
+0 1 0 7893 0 0
 /assets/js/stisla.js
-0 2 11493136 17894 0 0
+0 2 0 17894 0 0
 /home
-0 3 11493584 21630 0 0
+0 3 0 21630 0 0
 /assets/js/bootstrap.min.js
-0 2 11492752 116144 0 0
+0 2 0 116144 0 0
 /assets/js/jquery.nicescroll.min.js
-0 2 11492880 120020 0 0
+0 2 0 120020 0 0
 /shortlink/create
-0 3 11494272 22293 0 0
+0 3 0 22293 0 0
 /shortlink
-0 5 11500288 121478 0 0
+0 5 4121130303751400754 121478 0 0
 /assets/css/style.css
-0 2 11492256 254504 0 0
+0 2 7310597220861961006 254504 0 0
 # End Of Table - urls
 # -sites- (monthly)
+205.210.31.138
+0 2 1 4408 1 1659884523
+/login
+205.210.31.8
+0 1 0 378 1 1659816435
+-
+198.235.24.13
+0 1 0 378 1 1659811062
+-
 198.235.24.153
 0 1 0 378 1 1659387562
 -
 ec2-54-174-143-212.compute-1.amazonaws.com
 0 2 1 4408 1 1659509162
 /login
+120.188.34.200
+0 2 0 1580 1 1659602542
+-
 43.245.191.14
 0 68 38 1357198 1 1659510444
 /profile
+198.235.24.150
+0 2 1 4408 1 1659818279
+/login
 jobqueue-listener.jobqueue.netcraft.com-ub01dd0cc128411ed83c1d26e838d6ab1u-digitalocean-2gb
 0 2 1 4408 1 1659470685
 /login
+198.235.24.145
+0 1 0 378 1 1659815502
+-
 77-108-158-51.instances.scw.cloud
 0 1 0 378 1 1659524555
 -
 182.3.40.203
 0 34 26 996246 1 1659510532
 /gmptemuan/create
+198.235.24.22
+0 1 0 378 1 1659820693
+-
 # End Of Table - sites (monthly)
 # -sites- (daily)
-ec2-54-174-143-212.compute-1.amazonaws.com
-0 2 1 4408 1 1659509162
+205.210.31.138
+0 2 1 4408 1 1659884523
 /login
-43.245.191.14
-0 68 38 1357198 1 1659510444
-/profile
-77-108-158-51.instances.scw.cloud
-0 1 0 378 1 1659524555
--
-182.3.40.203
-0 34 26 996246 1 1659510532
-/gmptemuan/create
 # End Of Table - sites (daily)
 # -referrers- 
 https://s.adirasamart.co.id/gmptemuan/create
@@ -190,7 +202,7 @@ https://s.adirasamart.co.id/gmptemuan/create
 https://s.adirasamart.co.id/shortlink/create
 0 2
 - (Direct Request)
-0 37
+0 46
 https://s.adirasamart.co.id/gmpclosing
 0 2
 https://s.adirasamart.co.id/login
@@ -199,6 +211,8 @@ https://s.adirasamart.co.id/gmptemuan
 0 4
 https://s.adirasamart.co.id/shortlink
 0 5
+http://212.117.59.51:80/
+0 1
 https://s.adirasamart.co.id/assets/css/all.css
 0 3
 https://s.adirasamart.co.id/home
@@ -211,10 +225,14 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 0 68
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
 0 2
-Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+QR Scanner Android
 0 1
+Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39
+0 9
 Mozilla/5.0 (Linux; Android 12; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36
 0 34
+Mozilla/5.0 (Linux; Android 12; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36
+0 1
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

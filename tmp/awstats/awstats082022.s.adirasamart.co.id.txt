@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.8 (build 20200416)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2014                
-POS_TIME 2662                
-POS_VISITOR 5869                
-POS_DAY 5961                
-POS_DOMAIN 3147                
-POS_LOGIN 3369                
-POS_ROBOT 3524                
-POS_WORMS 3656                
-POS_EMAILSENDER 3787                
-POS_EMAILRECEIVER 3930                
-POS_SESSION 6071                
-POS_SIDER 6208                
-POS_FILETYPES 4065                
-POS_DOWNLOADS 4143                
-POS_OS 4407                
-POS_BROWSER 4484                
-POS_SCREENSIZE 4546                
-POS_UNKNOWNREFERER 4620                
-POS_UNKNOWNREFERERBROWSER 4733                
-POS_ORIGIN 4841                
-POS_SEREFERRALS 4971                
-POS_PAGEREFS 5115                
-POS_SEARCHWORDS 5263                
-POS_KEYWORDS 5415                
-POS_MISC 2326                
-POS_ERRORS 5474                
-POS_CLUSTER 3225                
-POS_SIDER_404 5560                
+POS_TIME 2661                
+POS_VISITOR 6233                
+POS_DAY 6325                
+POS_DOMAIN 3150                
+POS_LOGIN 3372                
+POS_ROBOT 3527                
+POS_WORMS 3659                
+POS_EMAILSENDER 3790                
+POS_EMAILRECEIVER 3933                
+POS_SESSION 6525                
+POS_SIDER 6662                
+POS_FILETYPES 4068                
+POS_DOWNLOADS 4146                
+POS_OS 4770                
+POS_BROWSER 4847                
+POS_SCREENSIZE 4909                
+POS_UNKNOWNREFERER 4983                
+POS_UNKNOWNREFERERBROWSER 5096                
+POS_ORIGIN 5204                
+POS_SEREFERRALS 5334                
+POS_PAGEREFS 5478                
+POS_SEARCHWORDS 5626                
+POS_KEYWORDS 5778                
+POS_MISC 2325                
+POS_ERRORS 5837                
+POS_CLUSTER 3228                
+POS_SIDER_404 5924                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20220803070642 4 646 11021752328156
+LastLine 20220808014738 2 349 7729707919762
 FirstTime 0
 LastTime 0
-LastUpdate 20220803120938 4 0 4 0 0
+LastUpdate 20220808120537 2 0 2 0 0
 TotalVisits 0                   
 TotalUnique 0                   
 MonthHostsKnown 0                   
@@ -58,22 +58,22 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-JavascriptDisabled 0 0 0
-JavaEnabled 0 0 0
-TotalMisc 0 0 0
 PDFSupport 0 0 0
-AddToFavourites 0 0 0
-QuickTimeSupport 0 0 0
-RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
 DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 1 1 236
-1 0 3 192 0 0 0
+1 0 8 512 0 0 0
 2 0 0 0 0 0 0
 3 0 0 0 0 0 0
 4 0 0 0 0 0 0
@@ -84,10 +84,10 @@ BEGIN_TIME 24
 9 0 0 0 0 0 0
 10 0 0 0 0 0 0
 11 0 0 0 0 0 0
-12 0 0 0 0 0 0
+12 0 0 0 1 1 236
 13 0 0 0 0 0 0
 14 0 0 0 0 0 0
-15 0 0 0 0 0 0
+15 0 0 0 1 1 236
 16 0 0 0 0 0 0
 17 0 0 0 0 0 0
 18 0 0 0 0 0 0
@@ -101,7 +101,7 @@ END_TIME
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-zz 0 3 192
+zz 0 8 512
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -135,24 +135,29 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 1
-txt 3 192 0 0
+txt 8 512 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
-BEGIN_DOWNLOADS 3
+BEGIN_DOWNLOADS 8
+/.well-known/pki-validation/90A0D9D817C40F2C5E5B0E81539063F3.txt 1 0 64
+/.well-known/pki-validation/21035C116B55CACF367C53857677E229.txt 1 0 64
+/.well-known/pki-validation/0B0EE9346BD47A83CB4C43F5F2A0CF04.txt 1 0 64
+/.well-known/pki-validation/0AC42DC97FAF9BEBA9D42695756699A4.txt 1 0 64
+/.well-known/pki-validation/ED51F32F0D51F310C238BE8B773484D2.txt 1 0 64
 /.well-known/pki-validation/06998AEA2BF474418F10DAEEFFA68377.txt 1 0 64
 /.well-known/pki-validation/7B0F75A9C0F7C8A52D8B6EFB239320E2.txt 1 0 64
-/.well-known/pki-validation/0AC42DC97FAF9BEBA9D42695756699A4.txt 1 0 64
+/.well-known/pki-validation/92A15D137060A70F11CAB9244C12180D.txt 1 0 64
 END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 1
-Unknown 3 0
+Unknown 8 0
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 1
-Unknown 3 0
+Unknown 8 0
 END_BROWSER
 
 # Screen size - Hits
@@ -161,17 +166,17 @@ END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 1
-COMODO_DCV 20220803014736
+COMODO_DCV 20220808014738
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
 BEGIN_UNKNOWNREFERERBROWSER 1
-COMODO_DCV 20220803014736
+COMODO_DCV 20220808014738
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 0 3
+From0 0 8
 From1 0 0
 From2 0 0
 From3 0 0
@@ -200,7 +205,7 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 1
-301 3 708
+301 5 1180
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
@@ -211,14 +216,19 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
 BEGIN_VISITOR 1
-10.3.13.41 0 3 192 
+10.3.13.41 0 8 512 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 3
+BEGIN_DAY 8
 20220801 0 1 64 0
 20220802 0 1 64 0
 20220803 0 1 64 0
+20220804 0 1 64 0
+20220805 0 1 64 0
+20220806 0 1 64 0
+20220807 0 1 64 0
+20220808 0 1 64 0
 END_DAY
 
 # Session range - Number of visits
